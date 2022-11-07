@@ -1,0 +1,8 @@
+
+테이블명 : comment_tab
+
+comment_no		NUMBER	PK -- 글번호
+user_id		VARCHAR2(30)	-- 작성자
+comment_content			VARCHAR2(1024)	--내용
+rag_date				date		-- 작성일
+
